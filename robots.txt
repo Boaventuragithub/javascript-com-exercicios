@@ -1,0 +1,3 @@
+User-Agent: *
+Allow:
+Sitemap: https://javascript-com-exercicios.surge.sh/
