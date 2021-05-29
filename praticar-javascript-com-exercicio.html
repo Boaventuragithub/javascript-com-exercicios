@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <link rel="icon" type="image/x-icon" href="card-list.svg" />
+        <title>Exercícios em javascript para praticar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name = "description" content = "exercita sua habilidades em javascript com exercícios. aprenda javascript com exercícios" />
+        <meta name="robots" content="index, follow"/>
+        <meta name="keywords" content="exercícios com javascript, projectos com javascript"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js.js"></script>
+        <style>
+            body{
+                font-family:Georgia, 'Times New Roman', Times, sans-serif;
+            }
+            .bg-metalic{
+                background-color: #364e59cb !important;
+            }
+            .bg-brown{background-color: #ff9900cb !important;
+            }
+            body{
+                font-family:Georgia, 'Times New Roman', Times, sans-serif;
+            }
+            .text-brown{color: #ff9900cb !important;
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav class="col-12 bg-metalic row m-0">
+            <div class="col-2">
+                <p class="text-white bg-brown rounded-circle mt-2 pt-1" style="width: 40px;height: 40px;">   
+                    <svg class="m-auto d-block text-dark" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                        <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                        <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                    </svg>             
+                </p>
+            </div>
+        <nav class="col-10">
+          <ul class="nav  justify-content-end mt-2">
+              <li class="nav-item">
+                  <a class="nav-link text-brown" href="./">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-brown" href="praticar-javascript-com-projectos.html">Projectos</a>
+            </li>
+          </ul>
+        </nav>          
+        </nav>
+        <!-- jumbotron section-->
+    <main>
+        <div class="jumbotron bg-metalic text-center text-brown mb-5" style="height: 350px;padding-top:100px">
+            <h1>Exercícios Javascript</h1>
+            <p>Lista de ecercícios em javascript</p>
+            <a href="praticar-javascript-com-projectos.html" class="btn bg-brown text-white">ver projectos</a>
+        </div>
+        <!-- seach input-->
+        <div class="mt-5">
+            <form class="form-group col-11 col-md-6 mx-auto">
+            <label for="search">Buscar exercícios</label>
+            <input id="myInput" onkeyup="myFunction()" class="form-control" type="search" placeholder="procurar" aria-label="Search">
+            </form>
+        <!-- exercise links-->
+          <div class="col-11 col-md-6 mx-auto">
+              <ul id="myUL" class="list-group shadow">
+                <li class="list-group-item"><a class="list-group-link" href="exercicios/exercicio-ola-mundo-com-javascript.html">Olá mundo com javascript</a></li>
+              </ul>
+
+          </div>     
+            
+        </div>
+    </main>
+  <!--Footer open-->
+   <footer class="bg-brown mt-5" style="position: fixed;bottom:0;width: 100%;">
+    <div class="text-center pt-3" style="height: auto;">
+        2021 - <a href="#">javascript-com-exercicio.com</a>-<a href="#">politica</a><br/><br>
+    </div>
+   </footer>
+    </body>
+</html>
